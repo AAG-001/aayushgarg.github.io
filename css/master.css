@@ -3,17 +3,17 @@
 /* Text inside these asterisks and slashes are comments for human */
 
   a {
-    color: blue; /* set the text color to blue here */
+    color: white; /* set the text color to blue here */
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
   }
 
   a:hover {
-    color: red; /* set the text color to red here */
+    color: blue; /* set the text color to red here */
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
   }
 
   body {
-    background-color: #f1f9ff; /* set the background color here */
+    background-color: #ff9933; /* set the background color here */
     color: black; /* set the text color to black here */
     font-family: Arial, Helvetica, sans-serif; /* set the font here */
     text-align: center; /* set the text alignment here */
@@ -61,3 +61,86 @@
     margin: 0 auto;
     text-align: left;
   }
+
+.x1
+{ 
+position: absolute; /* To place the text on the image*/
+top: 400px; /* The exact location of the text from the top of the image*/ /* Other beautification stuff */
+width: 30%
+}
+
+.x2
+{ 
+color:white;
+position: absolute; /* To place the text on the image*/
+top: 480px; /* The exact location of the text from the top of the image*/ /* Other beautification stuff */
+width: 30%;
+}
+
+/* Coloring time */
+h2 span /* decorating the text within the span tag */
+{ 
+color: white; 
+font: bold 24px/45px Helvetica, Sans-Serif; 
+letter-spacing: -1px; 
+background: rgb(0, 0, 0); /* fallback color */ 
+background: rgba(0, 0, 0, 0.7); padding: 10px; 
+}
+h2 span.spacer { padding:0 5px; } 
+
+.top-right {
+  position: absolute;
+  top: 18px;
+  right: 26px;
+  color: white;
+}
+.top-right-re {
+  position: absolute;
+  top: 18px;
+  right: 26px;
+  color: blue;
+}
+
+.active{
+margin-top:20px;
+margin-right:5px;
+font-size:20px;
+}
+
+.active1{
+	margin-top:80px;
+	margin-right:60px;
+	font-size:20px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 78px;
+  right: 26px;
+  font-size:20px;
+}
+
+p{color:white;}
+
+.centered {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centerbelow{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+
+.rehyper{
+	color:red;
+}
+.btext{
+	color:black;
+}

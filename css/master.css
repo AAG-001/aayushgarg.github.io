@@ -65,7 +65,7 @@
 .x1
 { 
 position: absolute; /* To place the text on the image*/
-top: 400px; /* The exact location of the text from the top of the image*/ /* Other beautification stuff */
+top: 400rem; /* The exact location of the text from the top of the image*/ /* Other beautification stuff */
 width: 30%
 }
 
@@ -73,7 +73,7 @@ width: 30%
 { 
 color:white;
 position: absolute; /* To place the text on the image*/
-top: 480px; /* The exact location of the text from the top of the image*/ /* Other beautification stuff */
+top: 480rem; /* The exact location of the text from the top of the image*/ /* Other beautification stuff */
 width: 30%;
 }
 
@@ -90,34 +90,34 @@ h2 span.spacer { padding:0 5px; }
 
 .top-right {
   position: absolute;
-  top: 18px;
-  right: 26px;
+  top: 18rem;
+  right: 26rem;
   color: white;
 }
 .top-right-re {
   position: absolute;
-  top: 18px;
-  right: 26px;
+  top: 18rem;
+  right: 26rem;
   color: blue;
 }
 
 .active{
-margin-top:20px;
-margin-right:5px;
-font-size:20px;
+margin-top:20rem;
+margin-right:5rem;
+font-size:20rem;
 }
 
 .active1{
-	margin-top:80px;
-	margin-right:60px;
-	font-size:20px;
+	margin-top:80rem;
+	margin-right:60rem;
+	font-size:20rem;
 }
 
 .bottom-right {
   position: absolute;
-  bottom: 78px;
-  right: 26px;
-  font-size:20px;
+  bottom: 78rem;
+  right: 26rem;
+  font-size:20rem;
 }
 
 p{color:white;}
